@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f9edc5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    background: #000;
+    color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    transition: all .2s ease-in;
+    margin: 0 1rem;
+}
+
+.flou {
+    filter:  blur(2px);
+    opacity: 5;
+    transform: scale(.95);
+    box-shadow: none;
+}
